@@ -5,11 +5,11 @@
 # and maximum; this matches the default thread size of Active Record.
 #
 
-pidfile "/var/www/rails/KB_1706/paycoin/shared/tmp/pids/puma.pid"
-bind "unix:///var/www/rails/KB_1706/paycoin/shared/tmp/sockets/puma.sock"
+pidfile "/var/www/rails/paycoin/shared/tmp/pids/puma.pid"
+bind "unix:///var/www/rails/paycoin/shared/tmp/sockets/puma.sock"
 
-state_path "/var/www/rails/KB_1706/paycoin/shared/tmp/pids/puma.state"
-stdout_redirect "/var/www/rails/KB_1706/paycoin/shared/log/puma.stdout.log", "/var/www/rails/KB_1706/paycoin/shared/log/puma.stderr.log", true
+state_path "/var/www/rails/paycoin/shared/tmp/pids/puma.state"
+stdout_redirect "/var/www/rails/paycoin/shared/log/puma.stdout.log", "/var/www/rails/paycoin/shared/log/puma.stderr.log", true
 
 environment ENV['RAILS_ENV'] 
 
