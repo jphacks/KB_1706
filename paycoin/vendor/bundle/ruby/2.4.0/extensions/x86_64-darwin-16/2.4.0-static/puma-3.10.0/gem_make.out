@@ -1,0 +1,21 @@
+current directory: /Users/user/KB_1706/paycoin/vendor/bundle/ruby/2.4.0/gems/puma-3.10.0/ext/puma_http11
+/Users/user/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20171021-20981-130akyj.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /Users/user/KB_1706/paycoin/vendor/bundle/ruby/2.4.0/gems/puma-3.10.0/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/user/KB_1706/paycoin/vendor/bundle/ruby/2.4.0/gems/puma-3.10.0/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/user/KB_1706/paycoin/vendor/bundle/ruby/2.4.0/gems/puma-3.10.0/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20171021-20981-l0cg4q/puma
