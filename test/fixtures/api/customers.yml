@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coinadress: MyString
+  onepass: MyString
+  twopass: MyString
+
+two:
+  coinadress: MyString
+  onepass: MyString
+  twopass: MyString
