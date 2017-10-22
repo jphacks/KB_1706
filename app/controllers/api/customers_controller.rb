@@ -1,3 +1,5 @@
+require 'ruby_coincheck_client'
+
 class Api::CustomersController < ApplicationController
   before_action :set_api_customer, only: [:show, :update, :destroy]
 
@@ -11,6 +13,7 @@ class Api::CustomersController < ApplicationController
   # GET /api/customers/1
   # GET /api/customers/1.json
   def show
+
     render :json => @api_customer
     #render 'show', :formats => [:json], :handlers => [:jbuilder]
   end
@@ -42,14 +45,17 @@ class Api::CustomersController < ApplicationController
   def pay
     json_request = JSON.parse(request.body.read)
     if !json_request.blank?
-      @api_customer = Api::Customer.where(id: json_request["id"])
-      
+      @api_customer = Api::Customer.find(json_request["id"])
+      p "#{@api_customer.onepass}"
       #ここにcoincheckapiを書く
+      cc = CoincheckClient.new(@api_customer.onepass, @api_customer.twopass)
+      #佐古さんのcoincheck address
+      response = cc.create_send_money(address: "1GwnQa2b2yfLPBLnEQQHAjDLC5z2G2k4V7", amount: json_request["amount"])
 
-      render :json => @api_customer
+      render :json => response
     
     else
-      personal = {'status' => 500}
+      render :json => {'status' => 500}
     end
   end
 
