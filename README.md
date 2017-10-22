@@ -1,5 +1,7 @@
 指先一つでbitcoinの支払いができる！　paycoin
 
+![paycoin](https://github.com/jphacks/KB_1706/blob/image/title.png)
+
 ### 製品説明
 店舗の支払いの際に用いるシステム。店舗側に本システムをもちいることで、あらかじめ事前登録をしておけばお客さんが指紋情報のみでその店の支払いをすることができます！
 支払いにbitcoinを用いることで手数料がゼロに！　導入する店舗さんの負担を減らします。
@@ -49,3 +51,9 @@ bitcoinはシステム維持のためのマイニングの費用の確保を目�
 
 #### デバイス
 * windows10 PC
+
+
+![paycoin](https://github.com/jphacks/KB_1706/blob/image/image1.jpg)
+
+![paycoin](https://github.com/jphacks/KB_1706/blob/image/structure.jpg)
+
