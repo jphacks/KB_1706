@@ -5,22 +5,51 @@ class Api::CustomersController < ApplicationController
   # GET /api/customers.json
   def index
     @api_customers = Api::Customer.all
+    render 'index', :formats => [:json], :handlers => [:jbuilder]
   end
 
   # GET /api/customers/1
   # GET /api/customers/1.json
   def show
+    render :json => @api_customer
+    #render 'show', :formats => [:json], :handlers => [:jbuilder]
   end
 
   # POST /api/customers
   # POST /api/customers.json
   def create
-    @api_customer = Api::Customer.new(api_customer_params)
+    json_request = JSON.parse(request.body.read)
 
-    if @api_customer.save
-      render :show, status: :created, location: @api_customer
+    if !json_request.blank?
+      personal = json_request
+
+      @api_customer = Api::Customer.create!(json_request)
+      
+      render :json => @api_customer
+    
+
+    # if @api_customer.save
+    #   render json: @api_customer, status: :created
+    # else
+    #   render json: @api_customer.errors, status: :unprocessable_entity
+    # end
+
     else
-      render json: @api_customer.errors, status: :unprocessable_entity
+      personal = {'status' => 500}
+    end
+  end
+
+  def pay
+    json_request = JSON.parse(request.body.read)
+    if !json_request.blank?
+      @api_customer = Api::Customer.where(id: json_request["id"])
+      
+      #ここにcoincheckapiを書く
+
+      render :json => @api_customer
+    
+    else
+      personal = {'status' => 500}
     end
   end
 
