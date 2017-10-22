@@ -2,7 +2,7 @@ require 'ruby_coincheck_client'
 
 class Api::CustomersController < ApplicationController
   before_action :set_api_customer, only: [:show, :update, :destroy]
-
+  before_action :authenticate_api_user!
   # GET /api/customers
   # GET /api/customers.json
   def index
