@@ -53,7 +53,7 @@ bitcoinはシステム維持のためのマイニングの費用の確保を目�
 * windows10 PC
 
 
-![paycoin](https://github.com/jphacks/KB_1706/blob/image/image1.jpg)
+![paycoin　image](https://github.com/jphacks/KB_1706/blob/image/image1.jpg)
 
-![paycoin](https://github.com/jphacks/KB_1706/blob/image/structure.jpg)
+![paycoin system structure](https://github.com/jphacks/KB_1706/blob/image/structure.jpg)
 
