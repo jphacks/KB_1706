@@ -43,9 +43,9 @@ bitcoinはシステム維持のためのマイニングの費用の確保を目�
 * Amazon web service
 * Windows Biometric Framework
 
-### フレームワーク・モジュール
+#### フレームワーク・モジュール
 * rails
 * visual studio 2017
 
-### デバイス
+#### デバイス
 * windows10 PC
