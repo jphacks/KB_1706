@@ -36,21 +36,21 @@ bitcoinはシステム維持のためのマイニングの費用の確保を目�
 また指紋認証のデータベースを今はローカルに保存していますが、将来は特徴点抽出のアルゴリズムだけをローカルに置き、暗号化された特徴点ベクトルをサーバーに送ることで認証する方式を採用していきます。
 
 ### 開発内容・開発技術
-*　スライド方式の指紋認証デバイスを用いた認証システムの開発（指紋認証の画像からユーザーIDを求める）
-*　bitcoin取引所とユーザーIDの関連付けのためのインターフェースとサーバーの作成
-*　店舗側の決済システム（店舗側が値段を入力し、ユーザーが指紋認証することで決済が完了するシステム）
+-　スライド方式の指紋認証デバイスを用いた認証システムの開発（指紋認証の画像からユーザーIDを求める）
+-　bitcoin取引所とユーザーIDの関連付けのためのインターフェースとサーバーの作成
+-　店舗側の決済システム（店舗側が値段を入力し、ユーザーが指紋認証することで決済が完了するシステム）
 
 #### API・データ
-* coincheck api
-* Amazon web service
-* Windows Biometric Framework
+- coincheck api
+- Amazon web service
+- Windows Biometric Framework
 
 #### フレームワーク・モジュール
-* rails
-* visual studio 2017
+- rails
+- visual studio 2017
 
 #### デバイス
-* windows10 PC
+- windows10 PC
 
 
 ![paycoin　image](https://github.com/jphacks/KB_1706/blob/image/image1.jpg)
