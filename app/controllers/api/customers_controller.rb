@@ -28,7 +28,7 @@ class Api::CustomersController < ApplicationController
 
       @api_customer = Api::Customer.create!(json_request)
       
-      render :json => @api_customer
+      render :json => @api_customer.id
     
 
     # if @api_customer.save
