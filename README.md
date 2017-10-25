@@ -1,6 +1,6 @@
 指先一つでbitcoinの支払いができる！　paycoin
 
-![paycoin](https://www.youtube.com/watch?v=U0tIuc0OBnY)  
+[![PayCoin](https://github.com/jphacks/KB_1706/blob/image/title.png)](https://www.youtube.com/watch?v=U0tIuc0OBnY)  
 https://www.youtube.com/watch?v=U0tIuc0OBnY
 
 ### 製品説明
