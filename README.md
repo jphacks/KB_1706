@@ -1,6 +1,7 @@
 指先一つでbitcoinの支払いができる！　paycoin
 
-![paycoin](https://github.com/jphacks/KB_1706/blob/image/title.png)
+![paycoin](https://www.youtube.com/watch?v=U0tIuc0OBnY)  
+https://www.youtube.com/watch?v=U0tIuc0OBnY
 
 ### 製品説明
 店舗の支払いの際に用いるシステム。店舗側に本システムをもちいることで、あらかじめ事前登録をしておけばお客さんが指紋情報のみでその店の支払いをすることができます！
