@@ -1,6 +1,0 @@
-﻿  main.cpp
-c:\users\yusuke\source\repos\biometrix\biometrix\main.cpp(343): warning C4477: 'wprintf_s' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'SIZE_T' です
-  c:\users\yusuke\source\repos\biometrix\biometrix\main.cpp(343): note: 書式文字列に '%lld' を使用することをお勧めします
-  c:\users\yusuke\source\repos\biometrix\biometrix\main.cpp(343): note: 書式文字列に '%Id' を使用することをお勧めします
-  c:\users\yusuke\source\repos\biometrix\biometrix\main.cpp(343): note: 書式文字列に '%I64d' を使用することをお勧めします
-  biometrix.vcxproj -> C:\Users\Yusuke\source\repos\biometrix\x64\Debug\biometrix.exe
