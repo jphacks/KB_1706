@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  App.xaml.cpp
+  CashPage.xaml.cpp
+  ContentDialog.xaml.cpp
+  MainPage.xaml.cpp
+  XamlTypeInfo.Impl.g.cpp
+  コード生成しています。
+  コード生成が終了しました。
+  XamlTypeInfo.g.cpp
+     ライブラリ C:\Users\kosa-a\source\repos\KB_1706\sample_app2\Release\sample_app2\sample_app2.lib とオブジェクト C:\Users\kosa-a\source\repos\KB_1706\sample_app2\Release\sample_app2\sample_app2.exp を作成中
+  コード生成しています。
+  All 7984 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  sample_app2.vcxproj -> C:\Users\kosa-a\source\repos\KB_1706\sample_app2\Release\sample_app2\sample_app2.exe
